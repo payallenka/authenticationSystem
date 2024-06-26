@@ -1,0 +1,18 @@
+# Ignore Django development artifacts
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Ignore database file
+db.sqlite3
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore local settings (if any)
+local_settings.py
